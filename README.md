@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+<h2 align="center">1. Factory constructor & Model Class </h2>
+
 ## ⚫ Factory constructor :
 
 - ```A special type of constructor that doesn't always create a new instance of its class.```
@@ -90,3 +92,29 @@ void main() {
 }
 
 ```
+
+
+<h2 align="center">2-1. Quotes Screen </h2>
+
+<h1 align="left"></h1>
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/bff7ff4a-1f91-480a-89e0-dde0652fbddc" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/quote_app_daily_task/blob/master/lib/Random%20quote/random_quote.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+<h2 align="center">2-2. Alert Dilog Screen </h2>
+
+<h1 align="left"></h1>
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/7e98f8b0-c836-470a-a062-49c472da8ea8" />
+</div>
+
+<h2 align="center">2-3. Quote Recording </h2>
+
+<h1 align="left"></h1>
+<div align="center">
+ <video src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/4f9b258d-27d5-48b3-802a-e51a8f2d726e.mp4" type="video/mp4"> 
+</video>
+</div>
