@@ -46,5 +46,47 @@ A new Flutter project.
   
 ### Example
 ```
+class User {
+  final String name;
+  final String email;
+  final String role;
+
+  // Private constructor
+  User._({required this.name, required this.email, required this.role});
+
+  // Factory constructor
+  factory User({required String name, required String email, required String role}) {
+    switch (role) {
+      case 'admin':
+        return User._(name: name, email: email, role: 'Administrator');
+      case 'editor':
+        return User._(name: name, email: email, role: 'Editor');
+      case 'viewer':
+        return User._(name: name, email: email, role: 'Viewer');
+      default:
+        return User._(name: name, email: email, role: 'Guest');
+    }
+  }
+
+  // Optional: Override toString for easier debugging
+  @override
+  String toString() {
+    return 'User{name: $name, email: $email, role: $role}';
+  }
+}
+
+void main() {
+  // Create users with different roles
+  final admin = User(name: 'Alice', email: 'alice@example.com', role: 'admin');
+  final editor = User(name: 'Bob', email: 'bob@example.com', role: 'editor');
+  final viewer = User(name: 'Charlie', email: 'charlie@example.com', role: 'viewer');
+  final guest = User(name: 'Dave', email: 'dave@example.com', role: 'unknown');
+
+  // Print the users
+  print(admin);
+  print(editor);
+  print(viewer);
+  print(guest);
+}
 
 ```
