@@ -118,3 +118,20 @@ void main() {
  <video src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/4f9b258d-27d5-48b3-802a-e51a8f2d726e.mp4" type="video/mp4"> 
 </video>
 </div>
+
+<h2 align="center">3. Toggle View Screen </h2>
+
+<h1 align="left"></h1>
+<div align="center">
+  <img height="550"  src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/a3899ae5-a0c5-40d9-afaa-6a60aa6febfa" />
+</div>
+<div align="center">
+<a href="https://github.com/HirenCodeMaster11/quote_app_daily_task/blob/master/lib/Togal%20View/togalView.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+<h2 align="center">2-3. Quote Recording </h2>
+
+<h1 align="left"></h1>
+<div align="center">
+ <video src="https://github.com/HirenCodeMaster11/quote_app_daily_task/assets/148859956/9b3bcc83-a875-418e-9d1f-e6f4aa170e0e.mp4" type="video/mp4"> 
+</video>
+</div>
