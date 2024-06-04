@@ -5,20 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:quote_app_daily_task/utils/Model.dart';
 import 'package:quote_app_daily_task/utils/quoteList.dart';
 
-QuoteModel? quoteModel;
+import '../utils/Global.dart';
 
-final List<Color> cardColors = [
-  Colors.teal,
-  Colors.blue,
-  Colors.green,
-  Colors.orange,
-  Colors.purple,
-  Colors.red,
-  Colors.brown,
-  Colors.pink,
-  Colors.indigo,
-  Colors.cyan,
-];
+QuoteModel? quoteModel;
 
 class QuotesRandom extends StatefulWidget {
   const QuotesRandom({super.key});
